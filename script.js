@@ -314,18 +314,100 @@ function initAnimations() {
 
 
 
+  gsap.from(" .middle-text1 h2, .middle-text1 p, .middle-text1 a", {
+    
+    y:50,
+    stagger: 0.1,
+    opacity:0,
+    duration:0.5,
+  });
 
-  gsap.from(" .middle-text h2, .middle-text p, .middle-text a", {
+ 
+
+  gsap.from(" .middle-text2 h2, .middle-text2 p, .middle-text2 a", {
     autoAlpha: 1,
     ease: "circ.out",
-    yPercent: 150,
-    y:100,
+    y: 50,
+    opacity:0,  
     stagger: 0.1,
-    opacity:1,
-    duration:0.5,
     scrollTrigger: {
-      trigger: " .middle-text h2, .middle-text p, .middle-text a",
-      start: "top: 55%",
+      trigger: " .middle-text2 h2, .middle-text2 p, .middle-text2 a",
+      start: "top: 70%",
+      end: "top: 40%",
+      scrub: 1,
+      toggleActions: "restart pause resume reverse",
+     
+    },
+  });
+  gsap.from(" .middle-text3 h2, .middle-text3 p, .middle-text3 a", {
+    autoAlpha: 1,
+    ease: "circ.out",
+    y: 50,
+    opacity:0,  
+    stagger: 0.1,
+    scrollTrigger: {
+      trigger: " .middle-text3 h2, .middle-text3 p, .middle-text3 a",
+      start: "top: 70%",
+      end: "top: 40%",
+      scrub: 1,
+      toggleActions: "restart pause resume reverse",
+     
+    },
+  });
+  gsap.from(" .middle-text4 h2, .middle-text4 p, .middle-text4 a", {
+    autoAlpha: 1,
+    ease: "circ.out",
+    y: 50,
+    opacity:0,  
+    stagger: 0.1,
+    scrollTrigger: {
+      trigger: " .middle-text4 h2, .middle-text4 p, .middle-text4 a",
+      start: "top: 70%",
+      end: "top: 40%",
+      scrub: 1,
+      toggleActions: "restart pause resume reverse",
+     
+    },
+  });
+  gsap.from(" .middle-text5 h2, .middle-text5 p, .middle-text5 a", {
+    autoAlpha: 1,
+    ease: "circ.out",
+    y: 50,
+    opacity:0,  
+    stagger: 0.1,
+    scrollTrigger: {
+      trigger: " .middle-text5 h2, .middle-text5 p, .middle-text5 a",
+      start: "top: 70%",
+      end: "top: 40%",
+      scrub: 1,
+      toggleActions: "restart pause resume reverse",
+     
+    },
+  });
+  gsap.from(" .middle-text6 h2, .middle-text6 p, .middle-text6 a", {
+    autoAlpha: 1,
+    ease: "circ.out",
+    y: 50,
+    opacity:0,  
+    stagger: 0.1,
+    scrollTrigger: {
+      trigger: " .middle-text6 h2, .middle-text6 p, .middle-text6 a",
+      start: "top: 70%",
+      end: "top: 40%",
+      scrub: 1,
+      toggleActions: "restart pause resume reverse",
+     
+    },
+  });
+  gsap.from(" .middle-text7 h2, .middle-text7 p, .middle-text7 a", {
+    autoAlpha: 1,
+    ease: "circ.out",
+    y: 50,
+    opacity:0,  
+    stagger: 0.1,
+    scrollTrigger: {
+      trigger: " .middle-text7 h2, .middle-text7 p, .middle-text7 a",
+      start: "top: 70%",
       end: "top: 40%",
       scrub: 1,
       toggleActions: "restart pause resume reverse",
