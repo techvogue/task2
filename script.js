@@ -420,7 +420,7 @@ function initAnimations() {
 }
 
 function checkScreenSize() {
-  if (window.innerWidth > 1000) {
+  if (window.innerWidth > 1020) {
       initAnimations();
       initIntersectionObserverAndScroll();
   } 
@@ -440,7 +440,7 @@ document.addEventListener('DOMContentLoaded', checkScreenSize);
 
 
 function initIntersectionObserverAndScroll() {
-  if (window.innerWidth <= 1200) {
+  if (window.innerWidth <= 1020) {
     return; // Exit if screen width is less than or equal to 1200px
   }
 
