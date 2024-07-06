@@ -12,7 +12,7 @@ $(document).ready(function() {
     $(".owl-carousel").owlCarousel({
       // Your carousel options
       items: 1,
-      // loop: true,
+      loop: true,
       dots:true,
  
      
