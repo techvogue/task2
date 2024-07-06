@@ -312,6 +312,29 @@ function initAnimations() {
     },
   });
 
+
+
+
+  gsap.from(" .middle-text h2, .middle-text p, .middle-text a", {
+    autoAlpha: 1,
+    ease: "circ.out",
+    yPercent: 150,
+    y:100,
+    stagger: 0.1,
+    opacity:1,
+    duration:0.5,
+    scrollTrigger: {
+      trigger: " .middle-text h2, .middle-text p, .middle-text a",
+      start: "top: 55%",
+      end: "top: 40%",
+      scrub: 1,
+      toggleActions: "restart pause resume reverse",
+     
+    },
+  });
+
+
+
 }
 
 function checkScreenSize() {
