@@ -32,7 +32,7 @@ $(document).ready(function() {
   }
 
   function handleCarousel() {
-    if (window.innerWidth < 1000) {
+    if (window.innerWidth < 1020) {
       initCarousel();
     } else {
       destroyCarousel();
