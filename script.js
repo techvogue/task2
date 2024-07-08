@@ -1,24 +1,12 @@
-// $(document).ready(function(){
-//   $('.owl-carousel').owlCarousel({
-//     items:1,
-//     margin:10,
-//     autoHeight:true
-//   });
-// });
 
 
 $(document).ready(function() {
   function initCarousel() {
     $(".owl-carousel").owlCarousel({
-      // Your carousel options
       items: 1,
       loop: true,
       dots:true,
  
-     
-      // autoplay: true,
-      // autoplayTimeout: 10000,
-      // autoplayHoverPause: true,
      
     });
   }
@@ -441,7 +429,7 @@ document.addEventListener('DOMContentLoaded', checkScreenSize);
 
 function initIntersectionObserverAndScroll() {
   if (window.innerWidth <= 1020) {
-    return; // Exit if screen width is less than or equal to 1200px
+    return; // Exit if screen width is less than or equal to 1020px
   }
 
   // Intersection Observer for sections and dots
